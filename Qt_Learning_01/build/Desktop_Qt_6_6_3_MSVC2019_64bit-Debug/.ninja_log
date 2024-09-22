@@ -1,0 +1,9 @@
+# ninja log v5
+76	1634	7487024897170596	Qt_Learning_01_autogen/timestamp	2b69d41c01cb50b8
+76	1634	7487024897170596	Qt_Learning_01_autogen/mocs_compilation.cpp	2b69d41c01cb50b8
+76	1634	7487024897170596	D:/user/Desktop/SourceCode/Qt/Qt_Learning_Notes/Qt_Learning_01/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/Qt_Learning_01_autogen/timestamp	2b69d41c01cb50b8
+76	1634	7487024897170596	D:/user/Desktop/SourceCode/Qt/Qt_Learning_Notes/Qt_Learning_01/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/Qt_Learning_01_autogen/mocs_compilation.cpp	2b69d41c01cb50b8
+1660	10770	7487024991910581	CMakeFiles/Qt_Learning_01.dir/main.cpp.obj	c073624ff1844776
+1668	10814	7487024991990649	CMakeFiles/Qt_Learning_01.dir/widget01.cpp.obj	96f131089ba3dc28
+1651	11215	7487024996440563	CMakeFiles/Qt_Learning_01.dir/Qt_Learning_01_autogen/mocs_compilation.cpp.obj	1462791deb00b800
+11216	14008	7487025022272065	Qt_Learning_01.exe	91d9564a1cce3146
