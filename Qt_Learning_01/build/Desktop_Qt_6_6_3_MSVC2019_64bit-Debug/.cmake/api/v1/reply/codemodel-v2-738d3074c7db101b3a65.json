@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-a2a39e4df17bf9ea21b6.json",
+					"jsonFile" : "directory-.-Debug-f9f8c3d139d8e6474ff6.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Qt_Learning_01::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Qt_Learning_01-Debug-75782302a2465fa0cdfc.json",
+					"jsonFile" : "target-Qt_Learning_01-Debug-aefbe619c03ba506564e.json",
 					"name" : "Qt_Learning_01",
 					"projectIndex" : 0
 				},

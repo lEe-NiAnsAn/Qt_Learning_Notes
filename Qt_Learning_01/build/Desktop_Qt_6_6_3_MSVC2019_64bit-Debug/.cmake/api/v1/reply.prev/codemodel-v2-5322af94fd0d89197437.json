@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-dc87e9dc7550da3a4f33.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Qt_Learning_01",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Qt_Learning_01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Qt_Learning_01-Debug-fe26993a994463a17de0.json",
+					"name" : "Qt_Learning_01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Qt_Learning_01_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Qt_Learning_01_autogen-Debug-b1b2ad5395f89ea3683b.json",
+					"name" : "Qt_Learning_01_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Qt_Learning_01_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Qt_Learning_01_autogen_timestamp_deps-Debug-55265951d65ae6ced247.json",
+					"name" : "Qt_Learning_01_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/user/Desktop/SourceCode/Qt/Qt_Learning_Notes/Qt_Learning_01/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug",
+		"source" : "D:/user/Desktop/SourceCode/Qt/Qt_Learning_Notes/Qt_Learning_01"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
