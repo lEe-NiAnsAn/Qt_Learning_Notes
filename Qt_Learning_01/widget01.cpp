@@ -1,5 +1,6 @@
 #include "widget01.h"
 #include <QPushButton>
+#include <QDebug>
 #include "mypushbutton.h"
 
 Widget01::Widget01(QWidget* parent)
@@ -12,6 +13,7 @@ Widget01::Widget01(QWidget* parent)
     btn1->setText("按钮一"); //设置按钮显示文本
     QPushButton* btn2 = new QPushButton("按钮二",this);    //简便形式
     btn2->move(100,0);  //移动按钮位置
+    btn2->resize(100,30);   //设置按钮大小
     //this->resize(720,480);  //重置窗口尺寸(可变动)
     this->setFixedSize(720,480);    //设置固定尺寸
     this->setWindowTitle("窗口一");
@@ -29,4 +31,10 @@ Widget01::Widget01(QWidget* parent)
     //析构函数信息输出即在"应用程序输出窗口"
 }
 
-Widget01::~Widget01() {}
+Widget01::~Widget01()
+{
+    qDebug() << "Widget01析构函数调用";
+    //对象树释放顺序为从根节点先调用析构函数清理堆区数据，再检测是否拥有子节点；
+    //若拥有子节点则调用子节点析构函数并再次检测继承关系；
+    //若不存在子节点则从此节点开始依次释放对象内存
+}
