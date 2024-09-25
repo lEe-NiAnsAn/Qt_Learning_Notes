@@ -11,6 +11,7 @@ Window02::Window02(QWidget *parent)
 {
     this->c01 = new Commanders(this);
     this->f01 = new Fighters(this);//继承父类接入对象树(该处有参构造为继承QObject类中构造)
+    //函数指针指向地址
     void(Commanders::* commandersSignal01)() = &Commanders::order;
     void(Fighters::* fightersSignal01)() = &Fighters::charge;
     connect(this->c01,commandersSignal01,this->f01,fightersSignal01);
