@@ -29,6 +29,16 @@ Widget01::Widget01(QWidget* parent)
     mbtn->move(0,30);
     mbtn->setText("自订按钮");
     //析构函数信息输出即在"应用程序输出窗口"
+
+    //信号槽：信号源发出信号传递至接受位置后所进行的处理即为信号槽(槽函数Slot Function)
+    MyPushButton* mbtnc = new MyPushButton;
+    mbtnc->setParent(this);
+    mbtnc->move(0,60);
+    mbtnc->setText("关闭窗口按钮");
+    //connect函数：将信号与信号槽链接
+    connect(mbtnc,&MyPushButton::clicked,this,&Widget01::close);
+    //参数一：信号源的指针；参数二：信号的地址；参数三：接收位置的指针；参数四：信号槽的地址
+
 }
 
 Widget01::~Widget01()
