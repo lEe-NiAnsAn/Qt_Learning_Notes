@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b969c5d7cd33806395f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "02_signalAndSlot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "02_signalAndSlot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_signalAndSlot-Debug-0ca72774f0e70dcbab37.json",
+					"name" : "02_signalAndSlot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02_signalAndSlot_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_signalAndSlot_autogen-Debug-b6e7fb29094dc0b60a3b.json",
+					"name" : "02_signalAndSlot_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02_signalAndSlot_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02_signalAndSlot_autogen_timestamp_deps-Debug-1a353fceebc924dfa6be.json",
+					"name" : "02_signalAndSlot_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/user/Desktop/SourceCode/Qt/Qt_Learning_Notes/02_signalAndSlot/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug",
+		"source" : "D:/user/Desktop/SourceCode/Qt/Qt_Learning_Notes/02_signalAndSlot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

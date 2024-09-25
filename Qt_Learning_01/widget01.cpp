@@ -35,10 +35,9 @@ Widget01::Widget01(QWidget* parent)
     mbtnc->setParent(this);
     mbtnc->move(0,60);
     mbtnc->setText("关闭窗口按钮");
-    //connect函数：将信号与信号槽链接
+    //connect函数：将信号与信号槽链接的函数
     connect(mbtnc,&MyPushButton::clicked,this,&Widget01::close);
     //参数一：信号源的指针；参数二：信号的地址；参数三：接收位置的指针；参数四：信号槽的地址
-
 }
 
 Widget01::~Widget01()

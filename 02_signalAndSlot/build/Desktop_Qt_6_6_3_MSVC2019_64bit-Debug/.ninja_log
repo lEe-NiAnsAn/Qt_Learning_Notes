@@ -1,0 +1,27 @@
+# ninja log v5
+57	1592	7489625285346119	02_signalAndSlot_autogen/timestamp	9e9debb21c2719f8
+57	1592	7489625285346119	D:/user/Desktop/SourceCode/Qt/Qt_Learning_Notes/02_signalAndSlot/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/02_signalAndSlot_autogen/timestamp	9e9debb21c2719f8
+1614	10766	7489625380976016	CMakeFiles/02_signalAndSlot.dir/main.cpp.obj	fb616af312378c21
+11921	14260	7489625413994556	02_signalAndSlot.exe	653341b7b88fbd47
+57	1592	7489625285346119	02_signalAndSlot_autogen/mocs_compilation.cpp	9e9debb21c2719f8
+57	1592	7489625285346119	D:/user/Desktop/SourceCode/Qt/Qt_Learning_Notes/02_signalAndSlot/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/02_signalAndSlot_autogen/mocs_compilation.cpp	9e9debb21c2719f8
+1606	11057	7489625383925988	CMakeFiles/02_signalAndSlot.dir/02_signalAndSlot_autogen/mocs_compilation.cpp.obj	9bfffd5a4c4b3c4f
+1625	11920	7489625392534219	CMakeFiles/02_signalAndSlot.dir/window02.cpp.obj	c45dee1e91352bc4
+355	2300	7489643736447545	02_signalAndSlot_autogen/timestamp	9e9debb21c2719f8
+355	2300	7489643736447545	02_signalAndSlot_autogen/mocs_compilation.cpp	9e9debb21c2719f8
+355	2300	7489643736447545	D:/user/Desktop/SourceCode/Qt/Qt_Learning_Notes/02_signalAndSlot/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/02_signalAndSlot_autogen/timestamp	9e9debb21c2719f8
+355	2300	7489643736447545	D:/user/Desktop/SourceCode/Qt/Qt_Learning_Notes/02_signalAndSlot/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/02_signalAndSlot_autogen/mocs_compilation.cpp	9e9debb21c2719f8
+2422	13943	7489643855728259	CMakeFiles/02_signalAndSlot.dir/commanders.cpp.obj	1acd59fd3abafa6
+2438	15392	7489643870508196	CMakeFiles/02_signalAndSlot.dir/fighters.cpp.obj	58c5170d09e2b527
+2304	15600	7489643872528191	CMakeFiles/02_signalAndSlot.dir/02_signalAndSlot_autogen/mocs_compilation.cpp.obj	9bfffd5a4c4b3c4f
+2388	15669	7489643873258180	CMakeFiles/02_signalAndSlot.dir/main.cpp.obj	fb616af312378c21
+2405	15927	7489643875838176	CMakeFiles/02_signalAndSlot.dir/window02.cpp.obj	c45dee1e91352bc4
+15928	19958	7489643907965602	02_signalAndSlot.exe	a705f85b3b1c50d7
+276	2035	7489718852009293	02_signalAndSlot_autogen/timestamp	9e9debb21c2719f8
+276	2035	7489718852009293	02_signalAndSlot_autogen/mocs_compilation.cpp	9e9debb21c2719f8
+276	2035	7489718852009293	D:/user/Desktop/SourceCode/Qt/Qt_Learning_Notes/02_signalAndSlot/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/02_signalAndSlot_autogen/timestamp	9e9debb21c2719f8
+276	2035	7489718852009293	D:/user/Desktop/SourceCode/Qt/Qt_Learning_Notes/02_signalAndSlot/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/02_signalAndSlot_autogen/mocs_compilation.cpp	9e9debb21c2719f8
+2135	14237	7489718975693089	CMakeFiles/02_signalAndSlot.dir/main.cpp.obj	fb616af312378c21
+2044	14258	7489718975653090	CMakeFiles/02_signalAndSlot.dir/02_signalAndSlot_autogen/mocs_compilation.cpp.obj	9bfffd5a4c4b3c4f
+2150	14345	7489718977713103	CMakeFiles/02_signalAndSlot.dir/window02.cpp.obj	c45dee1e91352bc4
+14346	17973	7489719006023119	02_signalAndSlot.exe	a705f85b3b1c50d7
