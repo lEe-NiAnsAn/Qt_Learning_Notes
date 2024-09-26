@@ -15,8 +15,10 @@ public:
 
     Commanders* c01;
     Commanders* c02;
+    Commanders* c03;
     Fighters* f01;
-    Fighters* f02;  //指针
+    Fighters* f02;
+    Fighters* f03;  //指针
     void timeRight();   //信号发出条件
     void timeRight(QString goalPos);    //有参重载
 };

@@ -5,6 +5,13 @@
 //3、创建信号源与接收器对象的指针
 //4、设置信号发出条件
 //5、链接信号与接收器
+#include <QPushButton>
+//信号可与信号链接
+//一个信号可链接多个槽函数
+//多个信号亦可同时链接同一槽函数
+//信号与槽的参数类型须一一对应
+//信号参数个数可多于槽函数，反之不可，且对应个数参数类型亦须一一对应
+//可利用disconnect()函数断开链接，调用时参数同connect()
 
 Window02::Window02(QWidget *parent)
     : QWidget(parent)
@@ -25,6 +32,16 @@ Window02::Window02(QWidget *parent)
     void(Fighters::* fightersSignal02)(QString) = &Fighters::charge;
     connect(this->c02,commandersSignal02,this->f02,fightersSignal02);
     timeRight("前线");
+
+    //信号链接信号：实现点击按钮代替信号发出函数
+    QPushButton* btn1 = new QPushButton("发出命令",this);
+    this->c03 = new Commanders(this);
+    this->f03 = new Fighters(this);
+    void(Commanders::* commandersSignal03)() = &Commanders::order;
+    void(Fighters::* fightersSignal03)() = &Fighters::charge;
+    connect(this->c03,commandersSignal03,this->f03,fightersSignal03);
+    //将QPushButton信号与Commanders信号链接
+    connect(btn1,&QPushButton::clicked,this->c03,commandersSignal03);
 }
 
 void Window02::timeRight()
